@@ -8,7 +8,7 @@ async function checkwhether(city)
     const data = await result.json();
     console.log(data);
     document.querySelector(".city").innerHTML = data.name;
-    document.querySelector(".info").innerHTML = Math.round(data.main.temp)+ "c";
+    document.querySelector(".info").innerHTML = Math.round(data.main.temp)+ "°c";
     document.querySelector(".info1").innerHTML = data.main.humidity + "%";
     document.querySelector(".info2").innerHTML = data.wind.speed + "kmph";   
 }
