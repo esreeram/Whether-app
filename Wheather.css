@@ -1,0 +1,85 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("sreeram\ background.jpg");
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+}
+.card{
+    width: 90%;
+    max-width: 500px;
+    background: linear-gradient(45deg,#243748,black,#4b749f);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px auto 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.search input
+{
+    background-color: #ADD8E6;
+    border-radius: 20px;
+    border: none;
+    height: 30px;  
+}
+.search button{
+  
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #ADD8E6;
+}
+.search img{
+    width: 10px;
+}
+.weather{
+    padding: 0px auto;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.weather .info{
+    font-size: 70px;
+    color: red;
+}
+.weather .city
+{
+    font-family: 'Quicksand', sans-serif;
+    color: #dd83ad;
+    font-size: 40px;
+}
+.details
+{
+    display: flex;
+    justify-content: space-between;
+}
+.details .humidity
+{
+    margin-top: 30px;
+    margin-right: 70px;
+}
+.details .humidity img
+{
+    height: 50px;
+    width: 50px;
+}
+.details .Wind
+{
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.details .Wind img
+{
+    height: 50px;
+    width: 50px;
+}
+
